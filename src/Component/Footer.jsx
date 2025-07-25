@@ -33,7 +33,7 @@ const Footer = () => {
           <h2 className="text-xl font-semibold mb-2">Information Security Policy</h2>
           <div className="w-10 border-b-4 border-red-500 mb-4"></div>
           <p className="text-sm text-gray-600 leading-relaxed">
-            ST Courier is committed to safeguarding the confidentiality, integrity and availability
+            Doorier Courier is committed to safeguarding the confidentiality, integrity and availability
             of all physical and electronic information assets of the organization. We ensure that
             the regulatory, operational and contractual requirements are fulfilled.
           </p>
@@ -59,7 +59,7 @@ const Footer = () => {
           <div>
             <h2 className="text-xl font-semibold mb-2">Useful Links</h2>
             <div className="w-10 border-b-4 border-red-500 mb-4"></div>
-            {["About Company", "GST", "Get A Quote", "Contact", "Pickup Login"].map((link, i) => (
+            {["About Company", "Contact"].map((link, i) => (
               <p key={i} className="mb-2">
                 <span className="text-red-500 font-bold">+</span>{" "}
                 <a href="#" className="hover:text-red-500 transition-colors">
@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
           <div>
             <div className="invisible md:visible mb-8">&nbsp;</div>
-            {["Serviceable Area", "Careers", "Hiring Support", "Banned Items"].map((link, i) => (
+            {["Express Courier", "Air Freight", "Sea Freight", "Custom Clearance", "Warehouse", "Cross Border"].map((link, i) => (
               <p key={i} className="mb-2">
                 <span className="text-red-500 font-bold">+</span>{" "}
                 <a href="#" className="hover:text-red-500 transition-colors">
@@ -87,7 +87,7 @@ const Footer = () => {
           <div className="w-10 border-b-4 border-red-500 mb-4"></div>
           <div className="flex items-start gap-3">
             <FaMapMarkerAlt className="text-red-500 mt-1" />
-            <p>No.199, Hariyan Street, C.Pallavaram,<br />Chennai - 600 043.</p>
+            <p>Office near IGI airport <br />Near Delhi</p>
           </div>
           <div className="flex items-center gap-3">
             <FaPhoneAlt className="text-red-500" />
@@ -95,7 +95,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-3">
             <FaEnvelope className="text-red-500" />
-            <span>helpdesk@stcourier.com</span>
+            <span>Doorierexpress@gmail.com</span>
           </div>
           <div className="flex items-start gap-3">
             <FaClock className="text-red-500 mt-1" />

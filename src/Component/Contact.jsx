@@ -1,7 +1,7 @@
 import React from "react";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaUser, FaBuilding, FaCity } from "react-icons/fa";
 
-const ContactPage = () => {
+const Contact = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800">
       {/* Hero */}
@@ -96,4 +96,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Contact;
