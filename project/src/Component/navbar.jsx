@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './photos/logo.png';
+import logo from './photos/Logo1.png';
 import { Link } from 'react-router-dom';
 import { ChevronDown, Menu, X } from 'lucide-react';
 
