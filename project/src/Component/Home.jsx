@@ -472,7 +472,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import pack from "./photos/packging.png";
 import delivery from "./photos/delivery.png";
-import phone from "./photos/Phone.png";
+import phone from "./photos/phone.png";
 import tracking from "./photos/tracking.png"
 import plane from "./photos/plane.png"
 import docs from "./photos/docs.webp"
