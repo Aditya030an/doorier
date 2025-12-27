@@ -481,6 +481,7 @@ import docs from "./photos/docs.webp"
 import deliveryImg from "./photos/box.png"
 const changingWords = ["eBay", "Amazon", "Shopify", "Etsy", "Walmart"];
 import { ArrowRight } from 'lucide-react';
+import QuoteSection from "./QuoteSection";
 
 const services = [
   {
@@ -1060,18 +1061,18 @@ const HomeSection = () => {
   <div className="absolute bottom-20 left-10 w-16 h-16 bg-white/30 rounded-full backdrop-blur-lg border border-white/30 shadow-xl"></div>
 
   {/* Main Content Wrapper */}
-  <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-24 flex flex-col lg:flex-row items-center gap-20">
+  {/* <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-24 flex flex-col lg:flex-row items-center gap-20">
 
-    {/* LEFT CONTENT */}
+    
     <div className="lg:w-1/2 space-y-8">
 
-      {/* Tag Pill */}
+      
       <div className="inline-flex items-center gap-3 px-4 py-2 bg-white/60 border border-white/30 backdrop-blur-md rounded-full shadow-md">
         <span className="w-2 h-2 bg-green-500 rounded-full"></span>
         <p className="text-gray-700 font-medium text-sm">100% Transparent Estimates</p>
       </div>
 
-      {/* Heading */}
+     
       <h1 className="text-5xl md:text-6xl font-extrabold text-[#0f1a3a] leading-tight tracking-tight">
         Get a Quote,  
         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-700 mt-2">
@@ -1079,7 +1080,7 @@ const HomeSection = () => {
         </span>
       </h1>
 
-      {/* Paragraphs */}
+    
       <p className="text-gray-700 text-lg leading-relaxed">
         A simple, clean, honest pricing experience — designed for businesses that value clarity and speed.
       </p>
@@ -1091,7 +1092,7 @@ const HomeSection = () => {
 
     </div>
 
-    {/* RIGHT — FORM */}
+    
     <div className="lg:w-1/2 w-full">
       <div className="bg-white/50 backdrop-blur-xl border border-white/40 rounded-2xl shadow-[0_25px_80px_rgba(0,0,0,0.12)] p-10">
 
@@ -1099,7 +1100,7 @@ const HomeSection = () => {
           Quick <span className="text-blue-600">Shipping Quote</span>
         </h3>
 
-        {/* Inputs */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
           <input className="premium-input" placeholder="First Name" />
           <input className="premium-input" placeholder="Last Name" />
@@ -1108,7 +1109,7 @@ const HomeSection = () => {
         <input className="premium-input mb-4" placeholder="Mobile Number" />
         <input className="premium-input mb-4" placeholder="Email" />
 
-        {/* Radios */}
+       
         <div className="mb-6">
           <p className="text-gray-900 font-medium mb-2">Selling internationally?</p>
           <div className="flex gap-8">
@@ -1133,7 +1134,7 @@ const HomeSection = () => {
           </div>
         </div>
 
-        {/* Select */}
+        
         <div className="mb-8">
           <p className="text-gray-900 font-medium mb-2">Monthly shipment volume</p>
           <select className="premium-input">
@@ -1144,7 +1145,7 @@ const HomeSection = () => {
           </select>
         </div>
 
-        {/* CTA Button */}
+
         <button className="w-full py-4 rounded-xl font-semibold text-white text-lg bg-gradient-to-r from-blue-600 to-indigo-600 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all">
           Get My Quote
         </button>
@@ -1156,7 +1157,8 @@ const HomeSection = () => {
       </div>
     </div>
 
-  </div>
+  </div> */}
+  <QuoteSection/>
 </div>
 
     
