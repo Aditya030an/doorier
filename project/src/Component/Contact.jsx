@@ -136,7 +136,8 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <FaMapMarkerAlt className="text-blue-600 text-xl mt-1" />
-                <span>123 Courier Street, Express City, IN 452001</span>
+                <span>Office near IGI Airport
+                Delhi, India</span>
               </div>
 
               <div className="flex items-start gap-4">

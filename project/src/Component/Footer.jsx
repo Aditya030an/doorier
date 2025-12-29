@@ -237,7 +237,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-3">
             <FaPhoneAlt className="text-blue-600" />
-            <span>044-612 66 666</span>
+            <span>+91 98765 43210</span>
           </div>
 
           <div className="flex items-center gap-3">
@@ -245,14 +245,14 @@ const Footer = () => {
             <span>Doorierexpress@gmail.com</span>
           </div>
 
-          <div className="flex items-start gap-3">
+          {/* <div className="flex items-start gap-3">
             <FaClock className="text-blue-600 mt-1" />
             <div>
               <p>Mon–Fri: 10 AM – 6:30 PM</p>
               <p>Saturday: 10 AM – 4:30 PM</p>
               <p>Sunday: Closed</p>
             </div>
-          </div>
+          </div> */}
         </div>
 
       </div>
